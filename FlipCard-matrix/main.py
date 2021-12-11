@@ -86,17 +86,6 @@ class FlipPairs:
 	def make_random_cards(self):
 		shuffle(self.num)
 
-	# def render_cards(self):
-	# 	for index , row in enumerate(self.card_list):
-			
-	# 		for i , column in enumerate(row) :
-
-	# 			tex=f"row - {index} ,column {i}"
-
-	# 			self.label=Button(self.frame ,text=tex , command=lambda:self.flip_me('kicc'))
-	# 			self.label.grid(row=index,column=i,padx=10,pady=20)
-
-
 
 	def make_buttons(self):
 		pass
