@@ -10,7 +10,7 @@ SENTENCE_FONT=('Sans serif',13,'normal')
 ENTRY_FONT=('Sans serif',13,'normal')
 
 
-sents=open('sentence.txt')
+sents=open('bat.txt')
 all_sents=sents.readlines()
 
 class MyGUI:
